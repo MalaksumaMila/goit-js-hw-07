@@ -16,4 +16,8 @@ formLogin.addEventListener('submit', (event) => {
    const formData = {
     email,
     password,
-  }});
+  };
+console.log(formData);
+
+formLogin.reset();
+});
